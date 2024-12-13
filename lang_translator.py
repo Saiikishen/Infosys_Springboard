@@ -43,9 +43,9 @@ if llm:
                 formatted_prompt = prompt_template.format(sentence=prompt1, language=target_language)
                 message = HumanMessage(content=formatted_prompt)
                 response = llm([message])  
-                st.write("Translated Sentence:")
+                st.write("Translated Sentence")
                 st.write(response.content)
             except Exception as e:
-                st.error(f"Translation failed: {e}")
+                st.error(f"Failed {e}")
         else:
-            st.error("giv data")
+            st.error("give data")
