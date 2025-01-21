@@ -65,13 +65,13 @@ if __name__ == "__main__":
 
     # Example: Length of string
     res = chain.invoke(
-        {"input": "What is the length in characters of the text 'Mokesh P'?"}
+        {"input": "What is the length in characters of the text 'Saikishen'?"}
     )
     print(res)
 
     # Example: Palindrome check
     res = chain.invoke(
-        {"input": "Is 'Mokesh' a palindrome?"}
+        {"input": "Is 'Malayalam' a palindrome?"}
     )
     print(res)
 
