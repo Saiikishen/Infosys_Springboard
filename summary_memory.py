@@ -21,7 +21,7 @@ max_token_limit = 200)
 conversation= ConversationChain (llm = llm, memory= memory)
 
 while True:
-    user_input = input("\n Mokesh:")
+    user_input = input("Enter:")
 
     if user_input.lower() in ['bye', 'exit']:
         print("Bye")
