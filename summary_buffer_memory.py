@@ -12,10 +12,10 @@ memory=memory,
 verbose= True 
 )
 while True:
-    user_input = input("\nYou: ")
-    if user_input.lower() in ['bye', 'exit']:
+    user_input = input("Saii ")
+    if user_input.lower() in ['exit']:
         print("Goodbye!")
-        print("\nConversation Summary:")
+        print("\n Summary:")
         print(conversation.memory.buffer)
         break
     
