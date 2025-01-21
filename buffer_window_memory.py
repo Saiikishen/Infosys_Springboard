@@ -9,8 +9,8 @@ memory=ConversationBufferWindowMemory(k=2)
 llm=ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 conversation=ConversationChain(llm=llm,memory=memory)
 while True:
-    user_input=input("\n Mokesh:")
-    if user_input.lower() in ['bye', 'exit']:
+    user_input=input("\n Saikishen:")
+    if user_input.lower() in ['exit']:
         print("bye")
         print(conversation.memory.buffer)
         break
